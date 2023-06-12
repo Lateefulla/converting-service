@@ -1,7 +1,7 @@
 package org.planx.converting.messaging.consumer
 
-import org.planx.convertingcap.functions.getLoggerFor
-import org.planx.convertingcap.services.ConvertingService
+import org.planx.converting.functions.getLoggerFor
+import org.planx.converting.services.ConvertingService
 import org.springframework.amqp.core.Message
 import org.springframework.amqp.core.MessageProperties
 import org.springframework.amqp.rabbit.annotation.RabbitHandler

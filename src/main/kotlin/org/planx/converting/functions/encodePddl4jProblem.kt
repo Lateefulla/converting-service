@@ -4,7 +4,7 @@ import fr.uga.pddl4j.encoding.CodedProblem
 import fr.uga.pddl4j.encoding.Encoder
 import fr.uga.pddl4j.parser.Domain
 import fr.uga.pddl4j.parser.Problem
-import org.planx.convertingcap.models.ConvertorError
+import org.planx.converting.models.ConvertorError
 
 @Throws(ConvertorError::class)
 fun encodePddl4jProblem(problem: Problem, domain: Domain, requestId: String): CodedProblem {

@@ -1,6 +1,6 @@
 package org.planx.converting.messaging.producer
 
-import org.planx.convertingcap.functions.getLoggerFor
+import org.planx.converting.functions.getLoggerFor
 import org.springframework.amqp.AmqpException
 import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.stereotype.Component

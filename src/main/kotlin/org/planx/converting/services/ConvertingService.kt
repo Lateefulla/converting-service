@@ -1,8 +1,8 @@
 package org.planx.converting.services
 
-import org.planx.convertingcap.functions.encodePddl4jProblem
-import org.planx.convertingcap.functions.getLoggerFor
-import org.planx.convertingcap.messaging.producer.Sender
+import org.planx.converting.functions.encodePddl4jProblem
+import org.planx.converting.functions.getLoggerFor
+import org.planx.converting.messaging.producer.Sender
 import org.springframework.stereotype.Service
 import org.planx.common.models.CallStack
 import org.planx.common.models.FunctionalityType
